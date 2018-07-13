@@ -1,4 +1,4 @@
-package factory.easyFactory;
+package factory.simpleFactory;
 
 /**
  * Created with IntelliJ IDEA

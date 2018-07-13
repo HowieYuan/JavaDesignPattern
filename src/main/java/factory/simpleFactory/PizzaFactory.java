@@ -1,4 +1,4 @@
-package factory.easyFactory;
+package factory.simpleFactory;
 
 import factory.factoryMethod.CheesePizza;
 import factory.factoryMethod.PepperoniPizza;

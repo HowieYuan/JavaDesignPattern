@@ -1,7 +1,6 @@
 package factory.abstractFactory.pizza;
 
 import factory.abstractFactory.ingredientFactory.IngredientFactory;
-import factory.abstractFactory.pizza.Pizza;
 
 /**
  * Created with IntelliJ IDEA
