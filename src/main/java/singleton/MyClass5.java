@@ -9,10 +9,7 @@ package singleton;
  * @Time 20:04
  */
 public class MyClass5 {
-    /**
-     * 添加 volatile 关键字
-     */
-    private volatile static MyClass5 myClass;
+    private static MyClass5 myClass;
 
     /**
      * 私有的构造器方法，确保其他类无法直接通过 new 来实例化

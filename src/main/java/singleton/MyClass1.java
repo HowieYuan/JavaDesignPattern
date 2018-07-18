@@ -22,9 +22,8 @@ public class MyClass1 {
 
     /**
      * 请求实例，实现“延迟实例化”，如果我们不需要这个实例，它就永远不会产生
-     * 同时，这是个同步方法
      */
-    public synchronized static MyClass1 getInstance() {
+    public static MyClass1 getInstance() {
         //只有当 myClass1 为空时才实例化
         if (myClass == null) {
             myClass = new MyClass1();
