@@ -33,8 +33,10 @@ public class MyClass6 {
      * 双重检验锁
      */
     public static MyClass6 getInstance() {
+        //第一个 if，如果单例已经实例化，这个时候就不需要进入代码块来获取锁，提高了效率
         if (myClass == null) {
             synchronized (MyClass6.class) {
+                //第二个if，避免实例化以后，其他线程已经进入第一个if代码块，造成多次实例化
                 if (myClass == null) {
                     myClass = new MyClass6();
                 }

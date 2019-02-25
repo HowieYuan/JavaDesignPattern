@@ -9,7 +9,7 @@ package singleton;
  * @Time 13:23
  */
 public class MyClass7 {
-    public MyClass7() {
+    private MyClass7() {
     }
 
     /**
