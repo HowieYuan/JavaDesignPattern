@@ -4,7 +4,7 @@ package singleton;
  * Created with IntelliJ IDEA
  *
  * @Author yuanhaoyue swithaoy@gmail.com
- * @Description 懒汉式-急切创建 线程安全 可以选用
+ * @Description 饿汉式-急切创建 线程安全 可以选用
  * @Date 2018-03-10
  * @Time 22:49
  */
